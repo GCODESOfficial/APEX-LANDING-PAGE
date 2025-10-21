@@ -27,7 +27,7 @@ export default function Confidential() {
       </div>
 
       {/* ====== Cards ====== */}
-      <div className="relative flex md:grid md:grid-cols-3 md:gap-6 gap-2 w-full md:max-w-7xl overflow-x-auto md:overflow-visible snap-x snap-mandatory scrollbar-hide pb-6">
+      <div className="relative flex md:grid md:grid-cols-3 md:gap-6 gap-2 w-full  md:max-w-7xl overflow-x-auto md:overflow-visible scrollbar-hide pb-6">
          {/* ---- Step 01 ---- */}
         <div className="bg-[#141414] rounded-2xl border border-[#18181B] w-60 md:w-auto snap-center flex-shrink-0 p-0 md:py-5 py-3 overflow-hidden transition-all hover:border-[#27272A]">
           <div className="relative w-full md:h-[260px] h-[180px] bg-black flex justify-center items-center md:px-16 px-6">

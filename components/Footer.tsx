@@ -28,13 +28,19 @@ export default function Footer() {
         <div className="flex flex-col md:items-end items-center gap-3 mt-6 md:mt-0">
           <p className="text-[#A1A1A1] text-sm">Official Social Links</p>
           <div className="flex gap-4">
+          <a
+  href="https://x.com/_ApexPL?t=PT8vUjbQNNaC2EEIr5P0Tg&s=09" // <-- replace with your actual Telegram link
+  target="_blank"
+  rel="noopener noreferrer"
+>
             <Image
               src="/images/social-x.svg"
               alt="X (Twitter)"
               width={26}
               height={18}
-              className="object-cover cursor-pointer hover:opacity-80 transition"
+              className="object-cover w-[34px] h-[24px] cursor-pointer hover:opacity-80 transition"
             />
+            </a>
           <a
   href="https://t.me/OfficialApexPL" // <-- replace with your actual Telegram link
   target="_blank"

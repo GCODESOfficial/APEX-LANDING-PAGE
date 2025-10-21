@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Built() {
   return (
-    <section id="technology" className="relative w-full bg-black text-white py-24 md:pb-60 px-4 md:px-14 flex flex-col items-center overflow-hidden">
+    <section id="technology" className="relative w-full bg-black text-white py-44 md:pb-60 px-4 md:px-14 flex flex-col items-center overflow-hidden">
       {/* --- Glow Underneath (behind everything) --- */}
       <Image
         src="/images/built-glow.svg"

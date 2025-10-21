@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     siteName: "Apex Protocol",
     images: [
       {
-        url: "https://apexpl.xyz/images/Metadata.png",
+        url: "https://apexpl.xyz/images/Metadata.jpg",
         width: 1200,
         height: 630,
         alt: "Apex Privacy Prediction Protocol",
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     description:
       "Apex is the next generation of decentralized prediction markets powered by Zero Knowledge Proofs. Trade unseen, protect your alpha, and earn double yield with AI-driven oracles and DeFi-powered liquidity.",
     creator: "@apexpl_xyz",
-    images: ["https://apexpl.xyz/images/Metadata.png"],
+    images: ["https://apexpl.xyz/images/Metadata.jpg"],
   },
 };
 

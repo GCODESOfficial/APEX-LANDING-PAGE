@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
+import Link from "next/link";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -39,23 +40,26 @@ export default function Navbar() {
           />
         </div>
 
-        {/* Launch App Button */}
-        <button
-          className="
-            flex flex-col absolute right-26 top-10 items-center justify-center gap-3
-            font-medium w-36 h-36 px-6 py-6 rounded-xl transition-all
-            animate-colorCycle
-          "
-        >
-          <Image
-            src="/images/arrow-up-right.svg"
-            alt="Launch"
-            width={44}
-            height={28}
-            className="object-contain icon"
-          />
-          <span className="text-sm">Launch App</span>
-        </button>
+       {/* Launch App Button */}
+<Link
+  href="https://app.apexpl.xyz"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="
+    flex flex-col absolute right-26 top-10 items-center justify-center gap-3
+    font-medium w-36 h-36 px-6 py-6 rounded-xl transition-all
+    animate-colorCycle
+  "
+>
+  <Image
+    src="/images/arrow-up-right.svg"
+    alt="Launch"
+    width={44}
+    height={28}
+    className="object-contain icon"
+  />
+  <span className="text-sm">Launch App</span>
+</Link>
       </div>
 
       {/* Mobile Header */}
@@ -120,60 +124,77 @@ export default function Navbar() {
             </button>
 
             {/* Menu links */}
-            <ul className="flex flex-col text-[#999999] text-xl space-y-10 font-medium">
-              <li>
-                <button
-                  onClick={() => handleScroll("#uniqueness")}
-                  className="hover:text-white transition-colors"
-                >
-                  Our Uniqueness
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => handleScroll("#how")}
-                  className="hover:text-white transition-colors"
-                >
-                  How it works
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => handleScroll("#technology")}
-                  className="hover:text-white transition-colors"
-                >
-                  Our Technology
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => handleScroll("#tokenomics")}
-                  className="hover:text-white transition-colors"
-                >
-                  Tokenomics
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => handleScroll("#community")}
-                  className="hover:text-white transition-colors"
-                >
-                  Join Community
-                </button>
-              </li>
-            </ul>
+<ul className="flex flex-col text-[#999999] text-xl space-y-10 font-medium">
+  <li>
+    <button
+      onClick={() => handleScroll("#uniqueness")}
+      className="hover:text-white transition-colors"
+    >
+      Our Uniqueness
+    </button>
+  </li>
+  <li>
+    <button
+      onClick={() => handleScroll("#how")}
+      className="hover:text-white transition-colors"
+    >
+      How it works
+    </button>
+  </li>
+  <li>
+    <button
+      onClick={() => handleScroll("#technology")}
+      className="hover:text-white transition-colors"
+    >
+      Our Technology
+    </button>
+  </li>
+  <li>
+    <button
+      onClick={() => handleScroll("#tokenomics")}
+      className="hover:text-white transition-colors"
+    >
+      Tokenomics
+    </button>
+  </li>
+  <li>
+    <button
+      onClick={() => handleScroll("#community")}
+      className="hover:text-white transition-colors"
+    >
+      Join Community
+    </button>
+  </li>
 
-            {/* Launch App Button */}
-            <button className="flex flex-col items-center justify-center gap-3 bg-[#6A00FF] hover:bg-[#7d4fff] text-white font-medium w-full h-24 px-6 py-6 rounded-md mt-10 transition-all">
-              <Image
-                src="/images/arrow-up-right.svg"
-                alt="Launch"
-                width={36}
-                height={28}
-                className="object-contain"
-              />
-              <span className="text-sm font-medium">Launch App</span>
-            </button>
+  {/* Whitepaper Link */}
+  <li>
+    <Link
+      href="https://apexpl.xyz/whitepaper.pdf" // <-- replace with your actual whitepaper URL or path
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-white transition-colors"
+    >
+      Whitepaper
+    </Link>
+  </li>
+</ul>
+
+           {/* Launch App Button */}
+<Link
+  href="https://app.apexpl.xyz"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex flex-col items-center justify-center gap-3 bg-[#6A00FF] hover:bg-[#7d4fff] text-white font-medium w-full h-24 px-6 py-6 rounded-md mt-10 transition-all"
+>
+  <Image
+    src="/images/arrow-up-right.svg"
+    alt="Launch"
+    width={36}
+    height={28}
+    className="object-contain"
+  />
+  <span className="text-sm font-medium">Launch App</span>
+</Link>
           </motion.div>
         )}
       </AnimatePresence>

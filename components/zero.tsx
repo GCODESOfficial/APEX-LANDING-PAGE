@@ -27,7 +27,7 @@ export default function Zero() {
 
       </div>
 
-      <div className="relative z-10 md:-mt-[40rem] -mt-40" >
+      <div className="relative z-10 md:-mt-[32rem] -mt-40" >
 
 {/* ===== Section Label ===== */}
 <div className="relative z-10 bg-[#121212] text-gray-400 text-xs font-medium px-4 py-2 w-32 text-center mx-auto rounded-full mb-4 border border-[#1E1E1E] ">
