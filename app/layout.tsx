@@ -14,31 +14,32 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
-  title: "Apex – The Pinnacle of Privacy Prediction Markets",
+export const metadata: Metadata = {
+  title:
+    "Apex, the next generation of decentralized prediction markets powered by Zero Knowledge Proofs.",
   description:
-    "Apex fuses Zero Knowledge Proofs and DeFi yield optimization to create the next era of decentralized forecasting. Trade privately, earn efficiently, and dominate the future of prediction markets.",
+    "Apex is the next generation of decentralized prediction markets powered by Zero Knowledge Proofs. Trade unseen, protect your alpha, and earn double yield with AI-driven oracles and DeFi-powered liquidity.",
   keywords: [
     "Apex",
-    "ApexPL",
-    "Prediction Markets",
-    "DeFi",
-    "Zero Knowledge Proofs",
+    "Prediction Market",
     "ZK-SNARKs",
-    "Blockchain",
-    "Privacy Trading",
-    "Forecasting",
-    "Crypto",
-    "Web3",
+    "Private Trading",
+    "MEV Protection",
+    "DeFi",
+    "AI Oracle",
+    "Yield Vault Contract",
+    "APX Token",
+    "Blockchain Privacy",
   ],
   authors: [{ name: "Apex Protocol" }],
   creator: "Apex Protocol",
   publisher: "Apex Protocol",
   metadataBase: new URL("https://apexpl.xyz"),
   openGraph: {
-    title: "Apex – The Pinnacle of Privacy Prediction Markets",
+    title:
+      "Apex, the next generation of decentralized prediction markets powered by Zero Knowledge Proofs.",
     description:
-      "Trade privately, earn double, and stay invisible until settlement. Apex is the next-gen ZK-powered prediction market for DeFi traders and institutions.",
+      "Apex is the next generation of decentralized prediction markets powered by Zero Knowledge Proofs. Trade unseen, protect your alpha, and earn double yield with AI-driven oracles and DeFi-powered liquidity.",
     url: "https://apexpl.xyz",
     siteName: "Apex Protocol",
     images: [
@@ -54,14 +55,14 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Apex – The Pinnacle of Privacy Prediction Markets",
+    title:
+      "Apex, the next generation of decentralized prediction markets powered by Zero Knowledge Proofs.",
     description:
-      "Apex fuses privacy, prediction, and DeFi yield into a single protocol. Predict confidentially, earn efficiently.",
-    creator: "@apexpl_xyz", // update this when you have your handle
+      "Apex is the next generation of decentralized prediction markets powered by Zero Knowledge Proofs. Trade unseen, protect your alpha, and earn double yield with AI-driven oracles and DeFi-powered liquidity.",
+    creator: "@apexpl_xyz",
     images: ["https://apexpl.xyz/images/Metadata.png"],
-  }
+  },
 };
-
 
 export default function RootLayout({
   children,

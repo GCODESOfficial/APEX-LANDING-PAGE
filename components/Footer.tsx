@@ -35,13 +35,20 @@ export default function Footer() {
               height={18}
               className="object-cover cursor-pointer hover:opacity-80 transition"
             />
-            <Image
-              src="/images/social-telegram.svg"
-              alt="Telegram"
-              width={26}
-              height={18}
-              className="object-contain cursor-pointer hover:opacity-80 transition"
-            />
+          <a
+  href="https://t.me/OfficialApexPL" // <-- replace with your actual Telegram link
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Image
+    src="/images/social-telegram.svg"
+    alt="Telegram"
+    width={26}
+    height={18}
+    className="object-contain cursor-pointer hover:opacity-80 transition"
+  />
+</a>
+
             <Image
               src="/images/social-mail.svg"
               alt="Email"

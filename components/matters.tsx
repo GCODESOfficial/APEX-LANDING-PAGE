@@ -50,9 +50,16 @@ export default function Matters() {
           <button className="bg-white text-black font-medium px-6 py-3 rounded-md hover:bg-gray-200 transition">
             Launch App
           </button>
-          <button className="bg-black text-white font-medium px-6 py-3 rounded-md hover:bg-[#111] transition">
-            Join Community
-          </button>
+          <a
+  href="https://t.me/OfficialApexPL" // <-- replace with your actual Telegram link
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button className="bg-black text-white font-medium px-6 py-3 rounded-md hover:bg-[#111] transition">
+    Join Community
+  </button>
+</a>
+
         </div>
       </div>
     </section>
